@@ -4,16 +4,12 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { SplashScreenComponent } from './splash-screen/splash-screen.component';
 import { LoginComponent } from './login/login.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes: Routes = [
   { component: SplashScreenComponent,path: '' },
   {    component: LoginComponent, path: 'login' },
-  // // {
-  // //   path : '/', component:PendingDashboardComponent
-  // // },
-  // {
-  //   path : 'pendingDashboard', component:PendingDashboardComponent
-  // },
+  {  path : 'pendingDashboard', component:DashboardComponent},
   // {
   //   component: ClaimFormComponent,
   //   path: 'claimForm'

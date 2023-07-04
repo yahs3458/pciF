@@ -1,0 +1,57 @@
+<body>
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+  <div class="navigation">
+    <ul>
+      <li class="list active">
+        <a [routerLink]="['/']">
+          <span class="icon">
+            <mat-icon
+              class="custom-color"
+              aria-hidden="false"
+              aria-label="Example home icon"
+              fontIcon="home"
+            ></mat-icon>
+          </span>
+          <span class="text">home</span>
+        </a>
+      </li>
+
+      <li class="list">
+        <a [routerLink]="['/detail']">
+          <span class="icon">
+            <mat-icon class="custom-color">account_circle</mat-icon>
+          </span>
+          <span class="text">Profile</span>
+        </a>
+      </li>
+      <li class="list">
+        <a [routerLink]="['/list']">
+          <span class="icon">
+            <mat-icon class="custom-color">sms</mat-icon>
+          </span>
+          <span class="text">message</span>
+        </a>
+      </li>
+
+      <li class="list">
+        <a href="/">
+          <span class="icon">
+            <mat-icon class="custom-color">settings</mat-icon>
+          </span>
+          <span class="text">settings</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- <script>
+        const list = document.querySelectorAll(".list");
+        function activeLink() {
+          list.forEach((item) => item.classList.remove("active"));
+          this.classList.add("active");
+        }
+        list.forEach((item) => item.addEventListener("click", activeLink));
+      </script> -->
+</body>

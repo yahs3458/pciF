@@ -23,6 +23,9 @@ import { MatListModule } from '@angular/material/list';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SplashScreenComponent } from './splash-screen/splash-screen.component';
 import { LoginComponent } from './login/login.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
 
 
 
@@ -31,6 +34,9 @@ import { LoginComponent } from './login/login.component';
     AppComponent,
     SplashScreenComponent,
     LoginComponent,
+    DashboardComponent,
+    NavbarComponent,
+    BottomBarComponent,
   ],
   imports: [
     BrowserModule,
