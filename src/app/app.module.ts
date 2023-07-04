@@ -26,6 +26,10 @@ import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
+import { InspectionDashboardComponent } from './inspection-dashboard/inspection-dashboard.component';
+import { InspectionDetailComponent } from './inspection-detail/inspection-detail.component';
+import { GeneralInfoComponent } from './general-info/general-info.component';
+import { TableComponent } from './table/table.component';
 
 
 
@@ -37,6 +41,10 @@ import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
     DashboardComponent,
     NavbarComponent,
     BottomBarComponent,
+    InspectionDashboardComponent,
+    InspectionDetailComponent,
+    GeneralInfoComponent,
+    TableComponent,
   ],
   imports: [
     BrowserModule,
