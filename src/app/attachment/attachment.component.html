@@ -1,0 +1,68 @@
+<div>
+  <div class="nav-bar">
+    <span> Attachment</span>
+  </div>
+
+  <div class="header">
+    <span>
+      Mode of Travel <b>onward journey</b> :
+      <select name="travel" id="">
+        <option value="travelMode1">Flight</option>
+        <option value="travelMode2">Train</option>
+      </select>
+    </span>
+  </div>
+
+  <!--- <div class="container">
+        <span> Ticket Upload : <input type="file" /> </span> <br />
+        <span> Bill Upload : <input type="file" /> </span> <br />
+      </div> -->
+
+  <div class="mainGrid">
+    <div class="outerClass">
+      <div class="grid1">Ticket Upload :</div>
+      <div class="grid2"><input type="file" /></div>
+    </div>
+    <div class="outerClass">
+      <div class="grid1">Bill Upload :</div>
+      <div class="grid2"><input type="file" /></div>
+    </div>
+  </div>
+  <div class="header">
+    <span>
+      Mode of Travel <b>return journey</b> :
+      <select name="travel" id="">
+        <option value="travelMode1">Flight</option>
+        <option value="travelMode2">Train</option>
+      </select>
+    </span>
+  </div>
+
+  <!-- <div class="container">
+      <span> Ticket Upload : <input type="file" /> </span> <br />
+      <span> Bill Upload : <input type="file" /> </span> <br />
+      <span> Other uploads : <input type="text" /> <input type="file" /> </span>
+      <br />
+    </div> -->
+  <div class="mainGrid">
+    <div class="outerClass">
+      <div class="grid1">Ticket Upload :</div>
+      <div class="grid2"><input type="file" /></div>
+    </div>
+    <div class="outerClass">
+      <div class="grid1">Bill Upload :</div>
+      <div class="grid2"><input type="file" /></div>
+    </div>
+    <div class="outerClass">
+      <div class="grid1">Other Uploads :</div>
+      <div class="grid2"><input type="file" /></div>
+    </div>
+  </div>
+  <div class="footer">
+    <button (click)="navigate()">Submit</button>
+  </div>
+
+  <div class="footer-nav">
+    <app-bottom-bar></app-bottom-bar>
+  </div>
+</div>

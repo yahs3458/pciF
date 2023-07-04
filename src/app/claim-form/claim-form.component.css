@@ -1,0 +1,527 @@
+@media (min-width: 451px) and (max-width: 850px) {
+  .nav-bar {
+    padding-top: 22px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 26px;
+    background: linear-gradient(
+      180deg,
+      #1da0ff 4.17%,
+      rgba(14, 9, 240, 0) 100%
+    );
+    height: 50px;
+    border: 3px solid #000;
+  }
+  .nav-bar span {
+    margin-top: 12px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .header {
+    margin: 20px auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+  .footer {
+    /* position: absolute; */
+    margin: 30px 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border: 3px solid #000;
+    background: linear-gradient(
+      180deg,
+      rgba(180, 210, 238, 0.82) 49.48%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+  .container span {
+    margin: 10px;
+    font-size: 19px;
+  }
+  .footer button {
+    /* position: relative; */
+    margin: 1px auto;
+
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    width: 50%;
+    padding: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #0c99ff;
+    border: 3px solid #000;
+  }
+  .footer-nav {
+    /* position: sticky; */
+    margin: -280px auto;
+    width: 80%;
+  }
+  .outerClass {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .grid1 {
+    flex: 1;
+    padding: 12px;
+    /* border-right: 2px solid grey; */
+  }
+  .grid2 {
+    flex: 2;
+    padding: 12px;
+  }
+  .mainGrid {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: start;
+    border: 3px solid #000;
+    background: linear-gradient(
+      180deg,
+      rgba(180, 210, 238, 0.82) 49.48%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+}
+
+@media (min-width: 300px) and (max-width: 450px) {
+  .nav-bar {
+    padding-top: 22px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 21px;
+    background: linear-gradient(
+      180deg,
+      #1da0ff 4.17%,
+      rgba(14, 9, 240, 0) 100%
+    );
+    height: 40px;
+    border: 3px solid #000;
+  }
+  .nav-bar span {
+    margin-top: 12px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .header {
+    margin: 20px auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 17px;
+  }
+
+  .footer {
+    /* position: absolute; */
+    margin: 30px 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border: 3px solid #000;
+    background: linear-gradient(
+      180deg,
+      rgba(180, 210, 238, 0.82) 49.48%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+  .container span {
+    margin: 10px;
+  }
+  .footer button {
+    /* position: relative; */
+    margin: 1px auto;
+
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    width: 40%;
+    padding: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 3px solid #000;
+    background: #0c99ff;
+  }
+  .footer-nav {
+    /* position: sticky; */
+    margin: -280px auto;
+    width: 80%;
+  }
+  .outerClass {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .grid1 {
+    flex: 1;
+    padding: 12px;
+    /* border-right: 2px solid grey; */
+  }
+  .grid2 {
+    flex: 2;
+    padding: 12px;
+  }
+  .mainGrid {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: start;
+    border: 3px solid #000;
+    background: linear-gradient(
+      180deg,
+      rgba(180, 210, 238, 0.82) 49.48%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+}
+@media screen and (max-height: 700px) {
+  .footer-nav {
+    position: absolute;
+    margin: 20px;
+    width: 80%;
+    padding: 8px;
+  }
+  .outerClass {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .grid1 {
+    flex: 1;
+    padding: 12px;
+    /* border-right: 2px solid grey; */
+  }
+  .grid2 {
+    flex: 2;
+    padding: 12px;
+  }
+  .mainGrid {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: start;
+    border: 3px solid #000;
+    background: linear-gradient(
+      180deg,
+      rgba(180, 210, 238, 0.82) 49.48%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+}
+@media screen and (min-height: 701px) and (max-height: 800px) {
+  .footer-nav {
+    position: absolute;
+    margin: 2px 43px;
+    width: 80%;
+  }
+  .outerClass {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .grid1 {
+    flex: 1;
+    padding: 12px;
+    /* border-right: 2px solid grey; */
+  }
+  .grid2 {
+    flex: 2;
+    padding: 12px;
+  }
+  .mainGrid {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: start;
+    border: 3px solid #000;
+    background: linear-gradient(
+      180deg,
+      rgba(180, 210, 238, 0.82) 49.48%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+}
+@media screen and (min-height: 801px) and (max-height: 900px) {
+  .footer-nav {
+    position: absolute;
+    margin: 10px 38px;
+    width: 80%;
+  }
+  .outerClass {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .grid1 {
+    flex: 1;
+    padding: 12px;
+    /* border-right: 2px solid grey; */
+  }
+  .grid2 {
+    flex: 2;
+    padding: 12px;
+  }
+  .mainGrid {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: start;
+    border: 3px solid #000;
+    background: linear-gradient(
+      180deg,
+      rgba(180, 210, 238, 0.82) 49.48%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+}
+@media screen and (min-height: 901px) and (max-height: 1001px) {
+  .footer-nav {
+    position: absolute;
+    margin: 10px 33px;
+    width: 80%;
+  }
+  .outerClass {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .grid1 {
+    flex: 1;
+    padding: 12px;
+    /* border-right: 2px solid grey; */
+  }
+  .grid2 {
+    flex: 2;
+    padding: 12px;
+  }
+  .mainGrid {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: start;
+    border: 3px solid #000;
+    background: linear-gradient(
+      180deg,
+      rgba(180, 210, 238, 0.82) 49.48%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+}
+@media screen and (min-height: 1002px) and (max-height: 1101px) {
+  .footer-nav {
+    position: absolute;
+    margin: 10px 67px;
+    width: 80%;
+  }
+  .outerClass {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .grid1 {
+    flex: 1;
+    padding: 12px;
+    /* border-right: 2px solid grey; */
+  }
+  .grid2 {
+    flex: 2;
+    padding: 12px;
+  }
+  .mainGrid {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: start;
+    border: 3px solid #000;
+    background: linear-gradient(
+      180deg,
+      rgba(180, 210, 238, 0.82) 49.48%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+}
+@media screen and (min-height: 1102px) and (max-height: 1220px) {
+  .footer-nav {
+    position: absolute;
+    margin: 10px 61px;
+    width: 80%;
+  }
+  .outerClass {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .grid1 {
+    flex: 1;
+    padding: 12px;
+    /* border-right: 2px solid grey; */
+  }
+  .grid2 {
+    flex: 2;
+    padding: 12px;
+  }
+  .mainGrid {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: start;
+    border: 3px solid #000;
+    background: linear-gradient(
+      180deg,
+      rgba(180, 210, 238, 0.82) 49.48%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+}
+@media screen and (min-height: 1221px) and (max-height: 1420px) {
+  .footer-nav {
+    position: absolute;
+    margin: 1090px 81px;
+    width: 80%;
+  }
+  .outerClass {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .grid1 {
+    flex: 1;
+    padding: 12px;
+    /* border-right: 2px solid grey; */
+  }
+  .grid2 {
+    flex: 2;
+    padding: 12px;
+  }
+  .mainGrid {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: start;
+    border: 3px solid #000;
+    background: linear-gradient(
+      180deg,
+      rgba(180, 210, 238, 0.82) 49.48%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+}
+@media (min-width: 200px) and (max-width: 299px) {
+  .nav-bar {
+    padding-top: 22px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 18px;
+    background: linear-gradient(
+      180deg,
+      #1da0ff 4.17%,
+      rgba(14, 9, 240, 0) 100%
+    );
+    height: 37px;
+    width: 100%;
+    border: 3px solid #000;
+  }
+  .nav-bar span {
+    margin-top: 12px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .header {
+    margin: 17px auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .footer {
+    /* position: absolute; */
+    margin: 30px 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #000;
+    justify-content: center;
+    align-items: start;
+
+    background: linear-gradient(
+      180deg,
+      rgba(180, 210, 238, 0.82) 49.48%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+  .container span {
+    margin: 10px;
+  }
+  .footer button {
+    /* position: relative; */
+    margin: 1px auto;
+
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    width: 50%;
+    padding: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #0c99ff;
+    border: 3px solid #000;
+  }
+  .footer-nav {
+    /* position: sticky; */
+    margin: -280px auto;
+    width: 60%;
+  }
+  .outerClass {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .grid1 {
+    flex: 1;
+    padding: 12px;
+    /* border-right: 2px solid grey; */
+  }
+  .grid2 {
+    flex: 2;
+    padding: 12px;
+  }
+  .mainGrid {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: start;
+    border: 3px solid #000;
+    background: linear-gradient(
+      180deg,
+      rgba(180, 210, 238, 0.82) 49.48%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+}
