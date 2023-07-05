@@ -95,7 +95,7 @@ header ul li {
 }
 header ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #080505;
   font-weight: 600;
   text-transform: uppercase;
   padding: 10px 15px;
@@ -113,10 +113,11 @@ header .menu {
   }
   header ul {
     position: fixed;
-    top: 100px;
+    top: 11vh;
     right: -100%;
-    background: rgba(0, 0, 0, 0.4);
-    height: calc(100vh);
+    background: rgba(120, 205, 238, 0.3);
+    /* background: #080505; */
+    height: calc(82vh);
     width: 35%;
     flex-direction: column;
     align-items: center;
@@ -137,6 +138,6 @@ header .menu {
     margin-left: 8px;
   }
   header ul {
-    width: 100%;
+    width: 50%;
   }
 }
