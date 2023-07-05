@@ -19,8 +19,8 @@ import { PendingDetailComponent } from './pending-detail/pending-detail.componen
 
 const routes: Routes = [
   { component: SplashScreenComponent,path: '' },
-  {    component: LoginComponent, path: 'login' },
-  {  path : 'pendingDashboard', component:DashboardComponent},
+  { component: LoginComponent, path: 'login' },
+  { path : 'pendingDashboard', component:DashboardComponent},
   { path: 'inspectionDashboard', component: InspectionDashboardComponent},
   { path: 'inspectionDetail', component: InspectionDetailComponent},
   { path: 'generalInfo', component: GeneralInfoComponent},
