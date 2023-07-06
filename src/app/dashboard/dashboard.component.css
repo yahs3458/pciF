@@ -3,6 +3,15 @@
   flex-direction: column;
   height: 100vh;
 }
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(180, 210, 238, 0.82) 49.48%, rgba(0, 0, 0, 0.00) 100%);
+  z-index: -1;
+}
 .nav-bar {
   position: sticky;
   /* height: 5vh; */
@@ -40,7 +49,7 @@
   height: 90px;
   left: calc(50% - 318px / 2);
   top: calc(50% - 199px / 2 - 169.5px);
-  background-color: #b4d2ee;
+  background-color: #a1cccd;
   border-radius: 15px;
 }
 .grid-item .c1 div {
@@ -73,7 +82,7 @@
   height: 90px;
   left: calc(50% - 348px / 2 + 15px);
   top: calc(50% - 199px / 2 - 22.5px);
-  background: #b4d2ee;
+  background: #a1cccd;
   border-radius: 15px;
 }
 .grid-item .c2 div {
@@ -106,7 +115,7 @@
   height: 90px;
   left: calc(50% - 348px / 2 + 15px);
   top: calc(50% - 199px / 2 + 124.5px);
-  background: #b4d2ee;
+  background: #a1cccd;
   border-radius: 15px;
 }
 .grid-item .c3 div {
@@ -139,7 +148,7 @@
   height: 90px;
   left: calc(50% - 348px / 2 + 15px);
   top: calc(50% - 199px / 2 + 271.5px);
-  background: #b4d2ee;
+  background: #a1cccd;
   border-radius: 15px;
 }
 .grid-item .c4 div {

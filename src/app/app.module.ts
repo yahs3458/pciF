@@ -9,6 +9,9 @@ import {FlexLayoutModule} from '@angular/flex-layout'
 import { HttpClientModule } from '@angular/common/http';
 
 // Material imports
+
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 import {MatIconModule} from '@angular/material/icon'
 import { MatTableModule } from '@angular/material/table';
 import { MatMenuModule } from '@angular/material/menu';
@@ -17,6 +20,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import {MatTabsModule} from '@angular/material/tabs';
 import { MatListModule } from '@angular/material/list';
+
 
 // component imports
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -74,9 +78,22 @@ import { PendingDetailComponent } from './pending-detail/pending-detail.componen
     MatListModule,
     BrowserAnimationsModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    MatFormFieldModule,
+    MatInputModule,
+    
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports:[
+    MatIconModule,
+    MatMenuModule,
+    MatTableModule,
+    MatSidenavModule,
+    MatButtonModule,
+    MatIconModule,
+    MatToolbarModule,
+    MatTabsModule,
+  ]
 })
 export class AppModule { }

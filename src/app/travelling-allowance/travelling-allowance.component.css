@@ -77,7 +77,7 @@
   }
 }
 
-@media (min-width: 300px) and (max-width: 450px) {
+@media (min-width: 200px) and (max-width: 450px) {
   .nav-bar {
     padding-top: 22px;
     text-align: center;
@@ -178,7 +178,7 @@
   }
 }
 
-@media (min-width: 200px) and (max-width: 299px) {
+@media (min-width: 500px) and (max-width: 1180px) {
   .nav-bar {
     padding-top: 22px;
     text-align: center;
