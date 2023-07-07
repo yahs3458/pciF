@@ -2,6 +2,14 @@
   href="https://fonts.googleapis.com/icon?family=Material+Icons"
   rel="stylesheet"
 />
+<h1>Statuary Documents</h1>
+<div class="header">
+  <span>
+    Institute name /institute id: Sankaralingam Bhuwaneswari College of
+    Pharmacy Anaikuttam Via Sivakasi Viruthunagar Dist/ PCI-1882
+  </span>
+</div>
+
 <!-- 
 <div class="container">
   <div class="table-responsive">
@@ -76,14 +84,10 @@
           </td> -->
           <td data-label="Enclose">
             <button (click)="capturePhoto()">Capture Photo</button>
-            <img *ngIf="photoData" [src]="photoData" alt="Captured Photo" />
+           
           </td>
           <td data-label="Image">
-            <img
-              *ngIf="element.image"
-              [src]="element.image.base64String"
-              alt="Captured Image"
-            />
+            <img *ngIf="photoData" [src]="photoData" alt="Captured Photo" />
           </td>
           <td data-label="Remarks">
             <select [(ngModel)]="element.selectOption">

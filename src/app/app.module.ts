@@ -43,6 +43,7 @@ import { PendingDetailComponent } from './pending-detail/pending-detail.componen
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -62,6 +63,7 @@ import { PendingDetailComponent } from './pending-detail/pending-detail.componen
     AttachmentComponent,
     CalculationdeclarationComponent,
     PendingDetailComponent,
+
   ],
   imports: [
     BrowserModule,
