@@ -37,7 +37,7 @@
     flex-direction: column;
     justify-content: center;
     border: 3px solid #000;
-    align-items: start;
+    align-items: flex-start;
     background: linear-gradient(
       180deg,
       rgba(180, 210, 238, 0.82) 49.48%,
