@@ -76,12 +76,12 @@
   justify-content: center;
 }
 .grid1 {
-  flex: 1;
+  flex: 2;
   padding: 12px;
   /* border-right: 2px solid grey; */
 }
 .grid2 {
-  flex: 2;
+  flex: 1;
   padding: 12px;
 }
 .mainGrid {

@@ -70,15 +70,20 @@
 .bottom-bar nav {
   margin: 30px;
 }
-.LHS {
-  text-align: left;
+.outerClass {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.RHS {
-  /* text-align: right; */
-  position: relative;
-  text-align: start;
-  /* margin-left: auto; */
-  left: 50%;
+.grid1 {
+  flex: 2;
+  padding: 12px;
+  /* border-right: 2px solid grey; */
+}
+.grid2 {
+  flex: 4;
+  padding: 12px;
 }
 span {
   margin-left: 6px;
