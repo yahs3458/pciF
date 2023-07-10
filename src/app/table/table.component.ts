@@ -93,29 +93,31 @@ export class TableComponent {
       // Implement the logic to upload the photo here
       // You can use HttpClient to make a request to your server API
     }
+    updateCheckboxValue(event: Event, index: number) {
+      const target = event.target as HTMLInputElement;
+      this.dataSource[index].checkbox = target.checked;
+      // this.dataSource[index].checkbox = checked;
+    }
+    
+    submitTableData(){
+      localStorage.setItem('tableData', JSON.stringify(this.dataSource));
+    }
+    getTableData(){
+      const storedData= 
+      localStorage.getItem('tableData');
+      if(storedData){
+       const retrievedData = JSON.parse(storedData)
+       this.separateDataSource=retrievedData;
+       console.log(storedData);
+       
+      }
+    }
+    
 }
     
     
-    // updateCheckboxValue(event: Event, index: number) {
-    //   const target = event.target as HTMLInputElement;
-    //   this.dataSource[index].checkbox = target.checked;
-    //   // this.dataSource[index].checkbox = checked;
-    // }
     
     
-    // submitTableData(){
-    //   localStorage.setItem('tableData', JSON.stringify(this.dataSource));
-    // }
-    // getTableData(){
-    //   const storedData= 
-    //   localStorage.getItem('tableData');
-    //   if(storedData){
-    //    const retrievedData = JSON.parse(storedData)
-    //    this.separateDataSource=retrievedData;
-    //    console.log(storedData);
-       
-    //   }
-    // }
     
     
     function updateCheckboxValue(event: Event | undefined, Event: { new(type: string, eventInitDict?: EventInit | undefined): Event; prototype: Event; readonly NONE: 0; readonly CAPTURING_PHASE: 1; readonly AT_TARGET: 2; readonly BUBBLING_PHASE: 3; }, index: any, number: any) {

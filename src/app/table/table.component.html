@@ -69,19 +69,20 @@
           <th>Course </th>
           <th>yes/no</th>
           <th>enclose</th>
+          <th>Image</th>
           <th>Remarks</th>
         </tr>
       </thead>
       <tbody>
         <tr *ngFor="let element of dataSource; let i = index">
           <td data-label="Course">{{ element.course }}</td>
-          <!-- <td data-label="Yes/No">
+          <td data-label="Yes/No">
             <input
               type="checkbox"
               [checked]="element.checkbox"
               (change)="updateCheckboxValue($event, i)"
             />
-          </td> -->
+          </td>
           <td data-label="Enclose">
             <button (click)="capturePhoto()">Capture Photo</button>
            
@@ -100,8 +101,8 @@
         </tr>
       </tbody>
     </table>
-    <!-- <button class="submit-btn" (click)="submitTableData()">Submit</button>
-    <button class="submit-btn" (click)="getTableData()">Get</button> -->
+    <button class="submit-btn" (click)="submitTableData()">Submit</button>
+    <button class="submit-btn" (click)="getTableData()">Get</button>
   </div>
   <table class="separate-table">
     <thead>
