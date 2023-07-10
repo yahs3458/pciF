@@ -4,7 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { FormsModule } from '@angular/forms';
+import { FormsModule,FormControl,FormBuilder , FormGroup , Validators,ReactiveFormsModule } from '@angular/forms';
+
 import {FlexLayoutModule} from '@angular/flex-layout'
 import { HttpClientModule } from '@angular/common/http';
 
@@ -80,6 +81,7 @@ import { PendingDetailComponent } from './pending-detail/pending-detail.componen
     MatListModule,
     BrowserAnimationsModule,
     FormsModule,
+    ReactiveFormsModule,
     HttpClientModule,
     MatFormFieldModule,
     MatInputModule,

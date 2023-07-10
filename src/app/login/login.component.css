@@ -29,7 +29,7 @@
   width: 90px;
   height: 37px;
   left: calc(50% - 90px / 2 - 99.5px);
-  top: calc(50% - 37px / 2 + 108.5px);
+  top: calc(50% - 87px / 2 + 108.5px);
 
   font-family: "Outfit";
   font-style: normal;
@@ -61,11 +61,51 @@
   width: 315px;
   height: 40px;
   left: calc(50% - 315px / 2 + 4px);
-  top: calc(50% - 40px / 2 + 132px);
+  top: calc(50% - 90px / 2 + 132px);
 
   background: #f6f6f6;
   border: 1px solid #ffffff;
   border-radius: 88px;
+}
+.login-form .form-group .email-span-req {
+  position: absolute;
+  width: 315px;
+  height: 40px;
+  left: calc(50% - 54px);
+  top: calc(50%  + 142px);
+
+  color: red;
+
+}
+.login-form .form-group .email-span-valid {
+  position: absolute;
+  width: 315px;
+  height: 40px;
+  left: calc(50% - 54px);
+  top: calc(50%  + 142px);
+
+  color:red;
+
+}
+.login-form .form-group .password-span-req {
+  position: absolute;
+  width: 315px;
+  height: 40px;
+  left: calc(50% - 225px / 2 + 4px);
+  top: calc(50%  + 232px);
+
+  color: red;
+
+}
+.login-form .form-group .password-span-fill {
+  position: absolute;
+  width: 315px;
+  height: 40px;
+  left: calc(50% - 225px / 2 + 4px);
+  top: calc(50%  + 252px);
+
+  color: red;
+
 }
 
 .login-form .form-group #password {

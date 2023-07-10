@@ -1,12 +1,14 @@
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet"
+/>
 
 <div class="login-container">
   <div class="background"></div>
   <div class="img-container">
     <img src="../../assets/Pharmacy_Council_of_India_Logo 4.jpg" alt="pci" />
   </div>
-  <div class="login-header"></div>
-  <form class="login-form">
+  <form class="login-form" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
     <div class="form-group">
       <label id="usernameL" for="username">Username</label>
       <input
@@ -14,13 +16,22 @@
         id="username"
         name="username"
         class="form-control"
+        formControlName="userName"
         placeholder="Enter your username"
-        [(ngModel)]="username"
         required
       />
+      <span
+        class="email-span-req"
+        *ngIf="(loginData['userName'].touched || submitted) &&loginData['userName'].errors?.['required'] "
+        >Email is required.</span
+      >
+      <span
+        class="email-span-valid"
+        *ngIf="loginData['userName'].touched && loginData['userName'].errors?.['email']"
+      >
+        Enter a valid email address
+      </span>
     </div>
-   
-
 
     <div class="form-group">
       <label id="passwordL" for="password">Password</label>
@@ -31,14 +42,26 @@
           name="password"
           class="form-control"
           placeholder=" Enter your password "
-          [(ngModel)]="password"
+          formControlName="passWord"
           required
         />
         <mat-icon matSuffix (click)="togglePasswordVisibility()">
-          {{ showPassword ? 'visibility_off' : 'visibility' }}
+          {{ showPassword ? "visibility_off" : "visibility" }}
         </mat-icon>
       </div>
-  </div>
-    <button class="btn btn-primary" (click)="onLogin()">Log in</button>
+      <span
+        class="password-span-req"
+        *ngIf="(loginData['passWord'].touched || submitted) && loginData['passWord'].errors?.['required']"
+      >
+        Password is required
+      </span>
+      <span
+        class="password-span-fill"
+        *ngIf="(submitted && loginData['passWord'].hasError('required')) || loginData['passWord'].touched && loginData['passWord'].errors?.['invalidPassword']"
+      >
+        Password should not be empty
+      </span>
+    </div>
+    <button type="submit" class="btn btn-primary form-control">Log in</button>
   </form>
 </div>
